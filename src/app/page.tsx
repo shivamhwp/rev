@@ -9,13 +9,13 @@ async function Images() {
   });
   return (
     <div className="flex flex-wrap gap-4">
-      {images.map((image, index) => (
-        <div key={image.id + "-" + index} className="flex w-48 flex-col">
-          <img src={image.url} className="h-auto w-full rounded-lg" />
+      {images.map((image) => (
+        <div key={image.id} className="flex w-48 flex-col">
+          <img src={image.url} className="h-auto w-full " />
           <div>{image.name}</div>
         </div>
       ))}
-      gallery in progress
+      {/* gallery in progress */}
     </div>
   );
 }
