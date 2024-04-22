@@ -15,6 +15,7 @@ export function TopNav() {
         </SignedOut>
         <SignedIn>
           <UploadButton
+            className="mr-4"
             endpoint="imageUploader"
             onClientUploadComplete={() => {
               router.refresh();
