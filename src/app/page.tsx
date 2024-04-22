@@ -4,9 +4,9 @@ import { getMyImages } from "~/server/queries";
 
 export const dynamic = "force-dynamic";
 
-const images = await getMyImages();
+async function Images() {
+  const images = await getMyImages();
 
-function Images() {
   return (
     <div className="flex flex-wrap justify-center gap-4 p-4">
       {images.map((image) => (
