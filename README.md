@@ -9,8 +9,8 @@
 - [x] attach database to ui
 - [x] add auth (clerk)
 - [x] add image upload
-- [ ] "taint" (server only)
-- [ ] use `next/Image` for images
+- [x] "taint" (server only)
+- [x] use `next/Image` for images
 - [ ] add error management (sentry)
 - [ ] routing/image page (parallel route)
 - [ ] delete button with server actions
