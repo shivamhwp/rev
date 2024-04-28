@@ -11,7 +11,7 @@
 - [x] add image upload
 - [x] "taint" (server only)
 - [x] use `next/Image` for images
-- [ ] add error management (sentry)
+- [x] add error management (sentry)
 - [ ] routing/image page (parallel route)
 - [ ] delete button with server actions
 - [ ] analytics (posthog)
