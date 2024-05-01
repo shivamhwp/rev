@@ -13,6 +13,8 @@
 - [x] use `next/Image` for images
 - [x] add error management (sentry)
 - [x] routing/image page (parallel route)
+- [x] make upload button less ugly
+- [ ] shadui (specifically toasts)
 - [ ] delete button with server actions
 - [ ] analytics (posthog)
 - [ ] rate limiting (upstash)
