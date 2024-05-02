@@ -16,5 +16,5 @@
 - [x] make upload button less ugly
 - [x] shadui (specifically toasts)
 - [x] analytics (posthog)
-- [ ] delete button with server actions
-- [ ] rate limiting (upstash)
+- [x] delete button with server actions
+- [x] rate limiting (upstash)
