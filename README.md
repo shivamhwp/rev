@@ -18,3 +18,11 @@
 - [x] analytics (posthog)
 - [x] delete button with server actions
 - [x] rate limiting (upstash)
+
+desc : A simple gallery app with auth, image upload, and rate limiting. Built with Next.js, Clerk, Vercel,vercel Postgres, Upstash, and Posthog.
+
+here's the url : [https://rev-beta.vercel.app/](https://rev-beta.vercel.app/)
+
+refernce : [https://www.youtube.com/watch?v=d5x0JCZbAJs](https://www.youtube.com/watch?v=d5x0JCZbAJs)
+
+made with the help of [theo](https://github.com/t3dotgg) and [t3-stack](https://create.t3.gg/)
