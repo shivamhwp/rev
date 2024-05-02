@@ -14,7 +14,7 @@
 - [x] add error management (sentry)
 - [x] routing/image page (parallel route)
 - [x] make upload button less ugly
-- [ ] shadui (specifically toasts)
-- [ ] delete button with server actions
+- [x] shadui (specifically toasts)
 - [ ] analytics (posthog)
+- [ ] delete button with server actions
 - [ ] rate limiting (upstash)
