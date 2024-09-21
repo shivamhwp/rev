@@ -17,9 +17,9 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "gallery",
+  title: "rev",
   description: "gallery app with t3 stack",
-  icons: [{ rel: "icon", url: "/favicon.ico" }],
+  icons: [{ rel: "icon", url: "/logo.svg" }],
 };
 
 export default function RootLayout({

@@ -29,9 +29,9 @@ async function Images() {
 }
 export default async function HomePage() {
   return (
-    <main className="">
+    <main className="  ">
       <SignedOut>
-        <div className="h-full  w-full  text-center  text-2xl ">
+        <div className="  h-full  w-full text-center text-2xl ">
           please sign in above
         </div>
       </SignedOut>

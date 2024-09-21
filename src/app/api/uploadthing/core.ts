@@ -8,7 +8,7 @@ import { ratelimit } from "~/server/ratelimit";
 const f = createUploadthing();
 
 export const ourFileRouter = {
-  imageUploader: f({ image: { maxFileSize: "2MB", maxFileCount: 6 } })
+  imageUploader: f({ image: { maxFileSize: "2MB", maxFileCount: 8 } })
     .middleware(async ({ req }) => {
       const user = auth();
 
@@ -17,7 +17,9 @@ export const ourFileRouter = {
       const fullUserData = await clerkClient.users.getUser(user.userId);
 
       if (!fullUserData?.privateMetadata?.["can-upload"] !== true)
-        throw new UploadThingError("user doesn't have upload permission");
+        throw new UploadThingError(
+          "user doesn't have upload permission or exceeded upload limit",
+        );
 
       const { success } = await ratelimit.limit(user.userId);
 
