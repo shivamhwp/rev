@@ -7,7 +7,11 @@ await import("./src/env.js");
 /** @type {import("next").NextConfig} */
 const coreConfig = {
   images: {
-    remotePatterns: [{ hostname: "utfs.io" }],
+    remotePatterns: [{ 
+      hostname: "utfs.io",
+      pathname : "/a/qujy6f1uxq/**"
+
+    }],
   },
 
   typescript: {
