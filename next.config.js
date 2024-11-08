@@ -9,8 +9,6 @@ const coreConfig = {
   images: {
     remotePatterns: [{ 
       hostname: "utfs.io",
-      pathname : "/a/qujy6f1uxq/**"
-
     }],
   },
 
